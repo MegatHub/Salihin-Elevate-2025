@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <link rel="stylesheet" type="text/css" href="css/elevate.css">
+  <script src="js/elevate.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elevate 2025 - SALIHIN Academy</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/elevate2025/img/salihin - Edited.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Third party plugin CSS-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+  
+  <style></style>
+</head>
+<body id="elevate">
+  <nav>
+    <div><strong>Salihin Academy: Elevate 2025</strong></div>
+    <button class="w3-button w3-large w3-green" onclick="toggleMode()" title="Toggle Dark/Light"><i class="material-icons">&#xe1ae;</i></button>
+  </nav>
+
+  <header class="hero" id="home">
+    <h1 >Elevate 2025: Shaping Future-Ready<br>Accountants & Advisors<br></h1>
+    <button class="btn-primary w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" onclick="document.getElementById('register').scrollIntoView({behavior: 'smooth'})">Learn more and register today!</button>
+  </header>
+  
+  <section>
+    <h2>About the Event</h2>
+    <p>Hosted by SALIHIN Academy, Elevate 2025 is a knowledge-sharing platform designed to empower the next generation of accountants and advisors. With a forward-looking agenda, this event targets finance professionals, students, and industry leaders eager to thrive in an evolving digital and ethical landscape.</p>
+  </section>
+ 
+  <section>
+    <h2>Agenda Preview</h2>
+    <div class="topics">
+      <div class="card">
+        <h3>e-Invoicing</h3>
+        <p>Understand the latest government mandates and system integrations impacting your finance workflows.</p>
+      </div>
+      <div class="card">
+        <h3>ESG Reporting</h3>
+        <p>Learn how sustainability metrics are becoming vital in mainstream accounting practices.</p>
+      </div>
+      <div class="card">
+        <h3>Shariah Advisory Trends</h3>
+        <p>Explore modern developments in Islamic finance and Shariah-compliant advisory services.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Featured Speakers</h2>
+    <div class="speakers">
+      <div class="card speaker">
+        <img src="https://via.placeholder.com/150" alt="Speaker 1">
+        <h4>Dr. Aisha Karim</h4>
+        <p>Chief ESG Officer, GreenFinance Ltd.</p>
+        <p>Renowned thought leader on sustainability reporting and responsible investing.</p>
+      </div>
+      <div class="card speaker">
+        <img src="https://via.placeholder.com/150" alt="Speaker 2">
+        <h4>Ahmad Zulkifli</h4>
+        <p>Head of Digital Finance, FinTechMY</p>
+        <p>Pioneer in automation and e-invoicing for mid-sized enterprises.</p>
+      </div>
+      <div class="card speaker">
+        <img src="https://via.placeholder.com/150" alt="Speaker 3">
+        <h4>Siti Nur Rahmah</h4>
+        <p>Shariah Compliance Advisor, Amanah Berhad</p>
+        <p>Experienced in advising major Islamic financial institutions on compliance and ethics.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="register">
+    <h2>Register Now</h2>
+    <form 
+      action="https://formspree.io/f/xdkgypvo"
+      method="POST"
+    >
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="text" name="phone" placeholder="Phone Number" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="text" name="organisation" placeholder="Organisation" required />
+      <input type="text" name="role" placeholder="Role" required />
+  <!-- your other form fields go here -->
+      <button class="btn-primary" type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Our Partners & Recognitions</h2>
+    <div class="partners">
+      <img src="/elevate2025/img/MICPA Logo.png" alt="MICPA">
+      <img src="/elevate2025/img/ACCA Logo.png" alt="ACCA">
+      <img src="/elevate2025/img/ICAEW Logo.png" alt="ICAEW">
+      <img src="/elevate2025/img/HRDC Logo.jpeg" alt="HRDC">
+      <img src="/elevate2025/img/CPA Logo.png" alt="CPA">
+    </div>
+  </section>
+  
+  <!-- Image of location/map -->
+    <img src="/elevate2025/img/Salihin map.png" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  
+    <footer>
+    <a href="https://www.salihin.com/home" target="_blank"><img  class="w3-circle w3-hover-grayscale w3-image" src="/elevate2025/img/SALIHIN Logo - Edited.png" alt="SALIHIN Logo" style="width:10%"></a><br>
+    <h4><a href="https://www.salihin.com/academy" target="_blank"><button class="button" style="vertical-align:middle"><span>Salihin Academy</span></button></a></h4>
+    <p>Contact: info@salihinacademy.com | +6012 345 6789</p>
+    <p><h4>Follow Us</h4>
+      <a href="https://www.facebook.com/SalihinGroup/" style="color:white; margin: 0 10px;" title="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/salihingroup/?hl=en" style="color:white; margin: 0 10px;" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@salihingroup" style="color:white; margin: 0 10px;" title="TikTok @salihinacademy"><i class="fab fa-tiktok"></i></a>
+      <a href="https://x.com/SalihinGroup?t=8hSum9Bz61QgFKSkBoW9Og&s=08" style="color:white; margin: 0 10px;" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/c/SalihinGroup" style="color:white; margin: 0 10px;" title="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/salihin/?originalSubdomain=my" style="color:white; margin: 0 10px;" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      
+    
+    </p>
+    <p>&copy; 2025 SALIHIN Academy</p>
+    <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#elevate"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  </footer>
+
+  <script></script>
+
+  <script></script>
+
+<!-- Bootstrap core JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</body>
+</html>
